@@ -9,7 +9,7 @@
 				total += parseFloat(inputField);
 				inputField = "0";
 				break;
-			case "substract":
+			case "subtract":
 				total -= parseFloat(inputField);
 				inputField = "0";
 				break;
@@ -45,7 +45,7 @@
 			inputField = "";
 			return;
 		}
-		inputField = inputField + value;
+		 inputField += value;
 	}
 
 	
